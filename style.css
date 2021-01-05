@@ -1,0 +1,27 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1440px;
+    background-color: hsl(273, 75%, 66%);
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+.card-container{
+    margin-top: 12%;
+    display: inline-flex;
+    border: 1px solid black;
+    background-color:white;
+    box-sizing: border-box;
+
+}
+.faq-list{
+    list-style: none;
+    padding: 10%;
+}

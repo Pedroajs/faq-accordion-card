@@ -1,40 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | FAQ Accordion Card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
 <body>
-  How many team members can I invite?
-  You can invite up to 2 additional users on the Free plan. There is no limit on 
-  team members for the Premium plan.
+  <div class="container">
+    <div class="card-container">
 
-  What is the maximum file upload size?
-  No more than 2GB. All files in your account must fit your allotted storage space.
+      <div class="card-img-container" >
+        <img class="card-img"  src="./images/illustration-woman-online-desktop.svg" alt="">
+      </div>
 
-  How do I reset my password?
-  Click “Forgot password” from the login page or “Change password” from your profile page.
-  A reset link will be emailed to you.
+      <div class="faq-container" >
+        
+        <ul class="faq-list" >
+          <h1 class="faq-container-title">FAQ</h1>
+          <li class="faq-questions">How many team members can I invite?</li>
+          <p  class="faq-answers">You can invite up to 2 additional users on the Free plan. There is no limit on 
+            team members for the Premium plan.</p>
+          <li class="faq-questions">  What is the maximum file upload size?
+          </li>
+          <p  class="faq-answers">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+          <li class="faq-questions">How do I reset my password?</li>
+          <p  class="faq-answers">Click “Forgot password” from the login page or “Change password” from your profile page.
+            A reset link will be emailed to you.</p>
+          <li class="faq-questions">Can I cancel my subscription?</li>
+          <p  class="faq-answers">Yes! Send us a message and we’ll process your request no questions asked.</p>
+          <li class="faq-questions">Do you provide additional support?</li>
+          <p  class="faq-answers">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+        </ul>
+      </div>
+    </div>
 
-  Can I cancel my subscription?
-  Yes! Send us a message and we’ll process your request no questions asked.
 
-  Do you provide additional support?
-  Chat and email support is available 24/7. Phone lines are open during normal business hours.
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+
   </div>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Pedro Augusto</a>.
+  </footer>
 </body>
 </html>
