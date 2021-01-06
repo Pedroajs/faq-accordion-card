@@ -6,22 +6,53 @@
     padding: 0;
 }
 body{
-    width: 1440px;
-    background-color: hsl(273, 75%, 66%);
+    background-image:linear-gradient(to left, hsl(273, 75%, 66%), hsl(240, 73%, 65%))
 }
 .container{
-    width: 70%;
-    margin: 0 auto;
+    width: 100%;
+    height: 620px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:1ch;
+    margin:0 auto;
+    /* position: relative;
+    top:150px */
 }
 .card-container{
-    margin-top: 12%;
+  
     display: inline-flex;
     border: 1px solid black;
+    border-radius: 10px;
     background-color:white;
+    /* position: relative;
+    top:160px;
+    left: 346px; */
+    padding: 1%;
     box-sizing: border-box;
 
+}
+.card-img-container{
+    position: relative;
+    right: 79px;
+    top:43px;    
+}
+.card-img{
+    width: 90%;
+}
+.faq-container{
+    width:70% ;
+    box-sizing: border-box;
 }
 .faq-list{
     list-style: none;
     padding: 10%;
+}
+.faq-answers{
+    display: none;
+}
+li{
+    padding: 4%;
 }
